@@ -100,6 +100,7 @@ void MX_GPIO_Init(void)
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
   HAL_GPIO_Init(LED_RED_GPIO_Port, &GPIO_InitStruct);
 
+  
   /*Configure GPIO pin : LED_BULE_Pin */
   GPIO_InitStruct.Pin = LED_BULE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD;
