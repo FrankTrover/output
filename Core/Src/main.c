@@ -184,7 +184,7 @@ static void App_ScanAd7616(void)
 //伏笔了这波，有点意思
 //大卫拉亚的示例有点东西
 //lihai
-
+//固定
 
 static void App_UpdateAlertLed(void)
 {
